@@ -4,28 +4,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background: #222;
   color: white;
   padding: 20px;
   text-align: center;
 }
+
 nav {
   background: #444;
   padding: 10px;
   text-align: center;
 }
+
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
+  font-weight: bold;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 main {
   padding: 20px;
   max-width: 800px;
-  margin: auto;
+  margin: 20px auto;
   background: white;
   border-radius: 8px;
-  margin-top: 20px;
 }
-
